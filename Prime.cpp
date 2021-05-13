@@ -26,13 +26,12 @@ bool Prime2(int n){
 	return true;
 }
 bool Prime3(int n){
-	int c=int(sqrt(n));
-	if(n%c==0){
+	for(int i=2;i*i<=sqrt(n);i++){
+	if(n%i==0){
 		return false;
 	}
-	else{
-		return true;
-	}
+}
+return true;
 }
 int main(){
 	int n=15;
