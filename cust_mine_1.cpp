@@ -15,5 +15,7 @@ int main(){
 		}
 		vect.push_back(count);
 	}
-	cout<<((max_element(vect.begin(),vect.end())-vect.begin())+1)<<"  Visited more times \n";
+	int it=(max_element(vect.begin(),vect.end());
+        int loc=find(vect.begin(),vect.end(),it);
+        cout<<loc;
 }
