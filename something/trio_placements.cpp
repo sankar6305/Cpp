@@ -2,6 +2,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 void gang(){
+	ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
 	int n,m;//size of that matrix
 	cin>>n>>m;
 	int vect[n][m];
